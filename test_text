@@ -1,0 +1,5 @@
+import PySMS
+
+ps = PySMS.PySMS(address = ' ', password = ' ', smtp_server="smtp.gmail.com", smtp_port="587", ssl=True)
+ps.add_number(' ', "verizon")
+ps.text("Test text")
